@@ -16,5 +16,5 @@ print(inv.get_quantity("widget"))  # 7
 ## Methods
 
 - `add_item(name, quantity=1)` — add stock for an item.
-- `remove_item(name, quantity=1)` — remove stock; raises `ValueError` if there isn't enouhg.
+- `remove_item(name, quantity=1)` — remove stock; raises `ValueError` if there isn't enough.
 - `get_quantity(name)` — get the current quantity of an item.
